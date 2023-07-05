@@ -1,0 +1,16 @@
+import os
+
+# 获取当前执行的 Python 文件的绝对路径
+current_file_path = os.path.abspath(__file__)
+
+# 获取当前执行的 Python 文件所在的目录
+current_directory = os.path.dirname(current_file_path)
+
+print(current_directory)
+
+//以上可以取得python file 的位置後再拿到當前資料夾的位置
+//也可以用以下方法直接拿到資料夾位置
+
+current_directory = os.getcwd()
+
+print(current_directory)

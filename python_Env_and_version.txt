@@ -1,0 +1,9 @@
+import sys
+import os
+# 获取当前 Python 环境的目录
+python_env_directory = sys.prefix
+print("当前 Python 环境目录：", python_env_directory)
+
+# 获取 Python 的执行版本
+python_version = sys.version
+print("Python 执行版本：", python_version)

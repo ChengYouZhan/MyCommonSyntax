@@ -1,5 +1,5 @@
-# python_common_grammar
-## 這是一個用來記錄我常用的python語法的空間~
+# common_grammar
+## 這是一個用來記錄我常用語法的空間
 
 
 ### 取得當前執行的python檔案的目錄
