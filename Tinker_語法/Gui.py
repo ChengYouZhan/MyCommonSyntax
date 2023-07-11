@@ -4,11 +4,12 @@ import ctypes
 ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID("starter")
 #使windows圖標可以正確切換
 IconFilePath = "example_icon.png"
+
 # 獲取當前執行的python文件的絕對路徑
 current_file_path = os.path.abspath(__file__)
 # 獲取當前執行的python文件的所在目錄
 current_directory = os.path.dirname(current_file_path)
-print(current_directory)
+print(f"current_directory:{current_directory}")
 
 class UI():
     def __init__(self) -> None:       
